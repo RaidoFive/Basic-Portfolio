@@ -5,6 +5,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 }	
 
  /* segment for positioning Contact/Portfolio/About */
@@ -136,9 +137,6 @@ img {
 	border-top: 5px solid #4aaaa5;
 }
 
-/* End first page */
-
-/* Begin second page, CSS specific to contact page */
 .contact-form {
 	background-color: #fff;
 	color: #4aaaa5;
@@ -153,10 +151,6 @@ form {
 	margin-left: 25px;
 	margin-top: 20px;
 }
-
-/* End segment for Contact specfic CSS code */
-
-/* Begin segment for Portfolio specific CSS code */ 
 
 .links2 {
 	background-color: #fff;
@@ -179,8 +173,7 @@ form {
 	width: 15%;
 	height: 50px;
 	text-align: center;
-	padding-top: 23px;
-	padding-bottom: 8px;
+	padding-top: 31px;
 	border: 0;
 	position: absolute;
 	margin-left: 105px;
@@ -218,8 +211,4 @@ form {
 .box-5 {
 	margin-left: 15px;
 
-}
-
-.container-1 {
-	
 }
