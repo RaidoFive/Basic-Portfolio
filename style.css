@@ -1,0 +1,225 @@
+/* Single sheet comprises CSS of all three pages */
+
+
+/* First page contains all code for Index page plus overlapping code for Contact and Portfolio */
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+ /* segment for positioning Contact/Portfolio/About */
+.links {
+	background-color: #fff;
+	color: #777;
+	width: 100%;
+	float: right;
+	height: 50px;
+	padding-top: 25px;
+	padding-bottom:5px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	border-left: 20px solid #fff;
+}
+ /* to space Contact/Portfolio/About links off of right margin */
+#contact {
+	margin-right: 220px;
+	text-decoration: none;
+}
+
+ /* further positioning of Contact/Portfolio/About */
+h3 {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	float: right;
+	margin-right: 25px;
+	border-right: 1px solid #ccc;
+	padding-right: 20px;
+	padding-top: 10px;
+	
+}
+/* positioning for Steve Hopkins heading*/
+.name {
+	background-color: #4aaaa5;
+	color: #fff;
+	width: 15%;
+	height: 50px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 6px;
+	border: 0;
+	position: absolute;
+	margin-left: 105px;
+}
+
+ /* positioning for About box */
+.about, .contact-box, .portfolio-box {
+	clear: both;
+	float:left;
+	background-color: #fff;
+	color: #777;
+	border: hidden;
+	width: 650px;
+	margin-top: 30px:;
+	margin-left: 105px;
+	margin-right: 25px;
+	margin-bottom: 30px;
+
+}
+
+/* positioning for About heading */
+.me, .contact-head, .portfolio-head {
+	background-color: #fff;
+	color: #4aaaa5;
+	text-indent: 45px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: solid 2px #ccc;
+
+}
+
+/* positioning for photo */
+.steve {
+	float:left;
+	background-color: #fff;
+	margin-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 0;
+	padding-top: 25px;
+
+}
+
+/* positioning for paragraphs withing About */
+p {
+	line-height: 150%;
+	padding-top: 20px;
+	padding-left: 25px;
+}
+
+/* positioning for content with Connect with Me box */
+.social {
+	float: left;
+	background-color: #fff;
+	text-align: center;
+	width: 20%;	
+	margin-top: 0;
+}
+
+/* positioning for Connect with Me heading */
+#connect {
+	background-color: #fff;
+	color: #4aaaa5;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: solid 1px #ccc;
+}
+
+/* positioning for social media icons */
+img {
+	padding-bottom: 15px
+}
+
+/* footer positioning */
+.footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: normal;
+	clear:both;
+	background-color: #666;
+	height:50px;
+	padding-top: 20px;
+	margin-top: 25px;
+	color: #777;
+	text-align: center;
+	border-top: 5px solid #4aaaa5;
+}
+
+/* End first page */
+
+/* Begin second page, CSS specific to contact page */
+.contact-form {
+	background-color: #fff;
+	color: #4aaaa5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: solid 2px #ccc;
+}
+
+form {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #ccc;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+/* End segment for Contact specfic CSS code */
+
+/* Begin segment for Portfolio specific CSS code */ 
+
+.links2 {
+	background-color: #fff;
+	color: #777;
+	width: 100%;
+	float: right;
+	height: 50px;
+	padding-top: 25px;
+	padding-bottom:5px;
+	margin-bottom: 30px;
+	margin-top: -20px;
+	border-bottom: 1px solid #ccc;
+	border-left: 20px solid #fff;
+
+}
+
+.name2 {
+	background-color: #4aaaa5;
+	color: #fff;
+	width: 15%;
+	height: 50px;
+	text-align: center;
+	padding-top: 23px;
+	padding-bottom: 8px;
+	border: 0;
+	position: absolute;
+	margin-left: 105px;
+	margin-top:-20px;
+
+}
+
+.box-1 {
+	clear: both;
+	float: right;
+	margin-top: 25px;
+	margin-right: 15px;
+
+}
+
+.box-2 {
+	float: left;
+	margin-top: 25px;
+	margin-left: 15px;
+
+}
+
+.box-3 {
+	float:right;
+	margin-left:15px;
+	margin-right:15px;
+
+}
+
+.box-4 {
+	margin-left: 15px;
+
+}
+
+.box-5 {
+	margin-left: 15px;
+
+}
+
+.container-1 {
+	
+}
